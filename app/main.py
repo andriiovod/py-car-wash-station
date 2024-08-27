@@ -58,26 +58,3 @@ class CarWashStation:
                 / self.count_of_ratings
             ), 1
         )
-
-
-# # Створення автомобілів
-# car1 = Car(comfort_class=3, clean_mark=4, brand="Toyota")
-# car2 = Car(comfort_class=2, clean_mark=2, brand="Honda")
-# car3 = Car(comfort_class=4, clean_mark=5, brand="BMW")
-#
-# # Створення станції миття
-# car_wash = CarWashStation(
-#     distance_from_city_center=10.0,
-#     clean_power=4,
-#     average_rating=4.5,
-#     count_of_ratings=100
-# )
-#
-# # Виконання миття автомобілів
-# income = car_wash.serve_cars([car1, car2, car3])
-#
-# # Виведення результатів
-# print(f"Income from car wash: {income}")
-# print(f"Car1 clean mark after wash: {car1.clean_mark}")
-# print(f"Car2 clean mark after wash: {car2.clean_mark}")
-# print(f"Car3 clean mark after wash: {car3.clean_mark}")
